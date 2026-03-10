@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor:
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="38" viewBox="0 0 24 24"><path fill="%23FFF" stroke="%23A25CE3FF" stroke-width="1" d="M5.5 3.21V20.8c0 .45.54.67.85.35l4.86-4.86a.5.5 0 0 1 .35-.15h6.87a.5.5 0 0 0 .35-.85L6.35 2.85a.5.5 0 0 0-.85.35Z"></path></svg>')
+      12 12,
+    auto;
+}
+html,
+body {
+  cursor: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background:
+    radial-gradient(
+      circle at  50% -5%,
+      rgba(147, 51, 234, 0.45),
+      transparent 70%
+    ),
+    #0b0b0f;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* cursor: none; */
+}
+
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#a855f7, #7c3aed);
+  border-radius: 10px;
+}

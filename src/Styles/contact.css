@@ -1,0 +1,56 @@
+.contact {
+  width: 100%;
+  margin: 200px 0;
+  text-align: center;
+  position: relative;
+
+  .contact-wrapper {
+    width: 80%;
+    margin: auto;
+
+    .contact-main {
+      font-family: "Great Vibes", cursive;
+      font-size: clamp(5rem, 11vw, 10rem);
+     background: linear-gradient(90deg, #ffffff, #a855f7);
+      background-clip: text;
+      padding: 30px;
+      color: transparent;
+      line-height: 1;
+      letter-spacing: 2px;
+    }
+
+    .contact-sub {
+      font-size: 1.5rem;
+      color: #aaa;
+      margin-bottom: 2rem;
+      letter-spacing: 1px;
+    }
+
+    .contact-cta {
+      text-decoration: none;
+      color: #a855f7;
+      font-weight: 600;
+      font-size: 1.1rem;
+      position: relative;
+      transition: 0.3s ease;
+    }
+
+    .contact-cta::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background: #a855f7;
+      bottom: -5px;
+      left: 0;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: 0.3s ease;
+    }
+
+    .contact-cta:hover::after {
+      transform: scaleX(1);
+    }
+  }
+}
+
