@@ -3,6 +3,7 @@ import img2 from "../assets/projectsImages/APPLE_TN.webp";
 import img3 from "../assets/projectsImages/SODA.png";
 import img4 from "../assets/projectsImages/2025-Formula1-Sauber-C45-006-1440sw.jpg";
 import img5 from "../assets/projectsImages/image copy.png";
+import img6 from "../assets/projectsImages/image copy 2.png"
 
 export const projectsData = [
   {
@@ -36,7 +37,7 @@ export const projectsData = [
   {
     id: 5,
     title: "PORTFOLIO - HTML , CSS , JS",
-    image: img1,
+    image: img6,
     live: "https://syedsiddiq104.github.io/MY_PORTFOLIO/",
     github: "https://github.com/syedsiddiq104/MY_PORTFOLIO.git"
   },
