@@ -9,7 +9,7 @@ export const projectsData = [
   {
     id: 1,
     title: "E - Commerce",
-    image: img1,
+    image: img6,
     live: "https://syedsiddiq104.github.io/iphone_clone/",
     github: "#"
   },
@@ -37,7 +37,7 @@ export const projectsData = [
   {
     id: 5,
     title: "PORTFOLIO - HTML , CSS , JS",
-    image: img6,
+    image: img1,
     live: "https://syedsiddiq104.github.io/MY_PORTFOLIO/",
     github: "https://github.com/syedsiddiq104/MY_PORTFOLIO.git"
   },
